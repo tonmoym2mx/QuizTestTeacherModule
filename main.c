@@ -3,6 +3,9 @@
 
 int main()
 {
-    printf("Hello world!\n");
+   openFile();
+   addQuestion();
+   fileClose();
+
     return 0;
 }
