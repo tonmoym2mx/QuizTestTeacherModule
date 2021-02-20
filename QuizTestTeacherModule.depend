@@ -1,9 +1,14 @@
 # depslib dependency file v1.0
-1613832442 source:d:\bubt\3rd semister\quiztest project\quiztestteachermodule\helper.c
+1613833097 source:d:\bubt\3rd semister\quiztest project\quiztestteachermodule\helper.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1613839788 source:d:\bubt\3rd semister\quiztest project\quiztestteachermodule\main.c
 	<stdio.h>
 	<stdlib.h>
 
-1613832442 source:d:\bubt\3rd semister\quiztest project\quiztestteachermodule\main.c
+1613838506 source:d:\bubt\3rd semister\quiztest project\quiztestteachermodule\utils.c
 	<stdio.h>
 	<stdlib.h>
 
