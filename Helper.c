@@ -4,16 +4,23 @@
 
 int opId = 0;
 
-FILE *qFile,*oFile;
+FILE *qFile,*oFile,*tFile;
 void openFile(){
     qFile = fopen("question.csv","w");
     oFile = fopen("options.csv","w");
+    tFile = fopen("check.csv","w");
     if(qFile == NULL){
         exit(1);
     }
      if(oFile == NULL){
         exit(1);
     }
+     if(tFile == NULL){
+        exit(1);
+    }
+}
+char createCheckFile(){
+    fputs("X",tFile);
 }
 char addOptions(int qId){
     char opStr[256] ,  ret[256] = "<-", strQid[5],strOpid[5],opNum = 'A',opn[2];
@@ -121,4 +128,5 @@ void addQuestion(){
 void fileClose(){
     fclose(qFile);
     fclose(oFile);
+    fclose(tFile);
 }
